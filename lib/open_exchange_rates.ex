@@ -22,7 +22,7 @@ defmodule OpenExchangeRates do
   ## example
 
       iex> OpenExchangeRates.available_currencies |> Enum.take(10)
-      ["AWG", "NAD", "INR", "LAK", "BOB", "MOP", "QAR", "SDG", "TMT", "BRL"]
+      ["NAD", "AWG", "INR", "LAK", "QAR", "MOP", "BOB", "SDG", "TMT", "BRL"]
 
   """
   @spec available_currencies() :: [String.t]
